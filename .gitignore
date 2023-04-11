@@ -1,0 +1,8 @@
+node_modules/*
+express-browser-reload/*
+*.DS_Store*
+launch.json
+newrelic_agent.log
+build/
+dist/
+server/

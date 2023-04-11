@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "rootDir": "../app/",
+        "outDir": "../server/",
+        "target": "es2021",
+        "lib": ["es5", "es6", "dom","ES2021.String"],
+        "removeComments": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+
+
+        "strict": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        "importsNotUsedAsValues": "error",
+        "checkJs": true,
+
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "../app/**/*.ts",
+        "../app/**/*.js"
+    ],
+    "exclude": ["node_modules"]
+}
